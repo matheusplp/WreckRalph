@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(assets/images/wall.png);
+}
+
+header
+{
+    width: 100%;
+    
+    .menu
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90px;
+        width: 100%;
+        background-color: #000000;
+        border-bottom: 5px solid #ffd700;
+        color: #FFFFFF;
+    }
+
+    h2
+    {
+        margin-top: .4rem;
+    }
+    
+    .title
+    {
+        color: #FF0000;
+    }
+
+    .menu-lives
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    .panel
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    
+    .square
+    {
+        width: 150px;
+        height: 150px;
+        border: 1px solid #000000;
+        background-color: aqua;
+    }
+    
+    .enemy
+    {
+        background-image: url(assets/images/ralph.png);
+        background-size: cover;
+    }
+}
+
+footer
+{
+    height: 0%;
+}
